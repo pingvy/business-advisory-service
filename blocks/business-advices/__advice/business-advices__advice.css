@@ -1,0 +1,7 @@
+.business-advices__advice {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+}

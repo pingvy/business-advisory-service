@@ -1,0 +1,16 @@
+.feedback__items {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    
+}
+
+@media screen and (max-width: 900px) {
+    .feedback__items {
+        grid-template-columns: 1fr;
+    }
+}

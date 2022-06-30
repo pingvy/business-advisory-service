@@ -1,0 +1,10 @@
+.business-advices__img {
+    margin: 0 15px 0 0;
+    width: 72px;
+}
+
+@media screen and (max-width: 584px) {
+    .business-advices__img {
+        width: 62px;
+    }
+}

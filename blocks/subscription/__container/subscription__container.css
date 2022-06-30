@@ -1,0 +1,14 @@
+.subscription__container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+    .subscription__container {
+        flex-direction: column;
+    }
+}

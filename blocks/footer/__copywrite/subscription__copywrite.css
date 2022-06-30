@@ -1,0 +1,10 @@
+.subscription__copywrite {
+    color: #737373;
+    margin: 0;
+}
+
+@media screen and (max-width: 500px) {
+    .subscription__copywrite {
+        margin: 0 0 20px 0;
+    }
+}

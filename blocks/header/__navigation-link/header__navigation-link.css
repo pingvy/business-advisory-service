@@ -1,0 +1,23 @@
+.header__navigation-link {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #252B42;
+    margin: 10px;
+}
+
+.header__navigation-link:hover {
+    opacity: 50%;
+}
+
+@media screen and (max-width: 900px) {
+    .header__navigation-link {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .header__navigation-link {
+        font-size: 12px;
+    }
+}

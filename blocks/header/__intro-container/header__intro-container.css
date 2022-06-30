@@ -1,0 +1,19 @@
+.header__intro-container {
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 900px) {
+    .header__intro-container {
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 901px) {
+    .header__intro-container {
+        padding: 100px 0 0 0;
+    }
+}

@@ -1,0 +1,11 @@
+.business-advices__title {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0 0 16px 0;
+}
+
+@media screen and (max-width: 900px) {
+    .business-advices__title {
+        font-size: 28px;
+    }
+}

@@ -1,0 +1,16 @@
+.feedback__item {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+    .feedback__item {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .feedback__item {
+        flex-direction: column;
+    }
+}

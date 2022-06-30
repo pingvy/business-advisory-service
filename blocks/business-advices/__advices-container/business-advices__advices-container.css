@@ -1,0 +1,21 @@
+.business-advices__advices-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+@media screen and (max-width: 900px) {
+    .business-advices__advices-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 584px) {
+    .business-advices__advices-container {
+        grid-template-columns: 1fr;
+    }
+}

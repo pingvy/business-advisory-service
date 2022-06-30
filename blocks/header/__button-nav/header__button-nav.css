@@ -1,0 +1,28 @@
+.header__button-nav {
+    background-color: #23A6F0;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+.header__button-nav:hover {
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.header__button-nav:active {
+    opacity: 1;
+    background-color: #252B42;
+}
+
+@media screen and (max-width: 900px) {
+    .header__button-nav {
+        font-size: 14px;
+        width: 150px;
+        padding: 10px;
+    }
+}

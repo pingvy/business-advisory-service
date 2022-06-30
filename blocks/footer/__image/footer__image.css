@@ -1,0 +1,11 @@
+.footer__image {
+    
+}
+
+.footer__image:hover {
+    opacity: 50%;
+}
+
+.footer__image:active {
+    opacity: 1;
+}

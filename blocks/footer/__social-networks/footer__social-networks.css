@@ -1,0 +1,5 @@
+.footer__social-networks {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}

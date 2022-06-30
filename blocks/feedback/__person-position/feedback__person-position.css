@@ -1,0 +1,12 @@
+.feedback__person-position {
+    font-size: 14px;
+    font-weight: 600;
+    color: #737373;
+    margin: 0 0 15px 0;
+ }
+
+ @media screen and (max-width: 900px) {
+     .feedback__person-position {
+        font-size: 14px;
+     }
+}

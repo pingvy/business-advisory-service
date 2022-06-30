@@ -1,0 +1,9 @@
+.business-advices__advice-text {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 900px) {
+    .business-advices__advice-text {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,8 @@
+.feedback__item-container {
+ }
+
+ @media screen and (max-width: 500px) {
+     .feedback__item-container {
+        width: 250px;
+     }
+}

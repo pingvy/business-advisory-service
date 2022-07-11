@@ -1,7 +1,6 @@
 .subscription__form-button {
     background-color: #23A6F0;
     color: #fff;
-    width: 117px;
     padding: 15px 20px;
     border-radius: 5px;
     margin: 0;
@@ -18,10 +17,4 @@
 
 .subscription__form-button:active {
     opacity: 30%;
-}
-
-@media screen and (max-width: 500px) {
-    .subscription__form-button {
-        width: 100%;
-    }
 }

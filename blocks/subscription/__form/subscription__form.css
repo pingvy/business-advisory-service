@@ -1,10 +1,11 @@
 .subscription__form {
     display: flex;
-    align-items: center;
 }
 
 @media screen and (max-width: 500px) {
     .subscription__form {
         flex-direction: column;
+        width: 280px;
+        padding: 10px 0 10px 0;
     }
 }

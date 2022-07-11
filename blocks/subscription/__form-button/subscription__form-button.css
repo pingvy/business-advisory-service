@@ -8,10 +8,12 @@
     border-style: none;
     font-family: inherit;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .subscription__form-button:hover {
-    opacity: 90%;
+    opacity: 50%;
+    transition: 0.3s;
 }
 
 .subscription__form-button:active {

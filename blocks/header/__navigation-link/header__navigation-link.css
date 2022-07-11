@@ -4,10 +4,12 @@
     font-size: 16px;
     color: #252B42;
     margin: 10px;
+    transition: 0.3s;
 }
 
 .header__navigation-link:hover {
     opacity: 50%;
+    transition: 0.3s;
 }
 
 @media screen and (max-width: 900px) {

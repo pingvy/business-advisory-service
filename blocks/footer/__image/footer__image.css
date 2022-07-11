@@ -1,9 +1,10 @@
 .footer__image {
-    
+    transition: 0.3s;
 }
 
 .footer__image:hover {
     opacity: 50%;
+    transition: 0.3s;
 }
 
 .footer__image:active {

@@ -9,11 +9,13 @@
     font-family: inherit;
     margin: 0 12px 0 0;
     padding: 22px 40px;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
 .neighbor-btn:hover {
     opacity: 50%;
-    cursor: pointer;
+    transition: 0.3s;
 }
 
 .neighbor-btn:active {

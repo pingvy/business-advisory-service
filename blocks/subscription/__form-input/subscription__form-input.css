@@ -7,6 +7,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.subscription__form-input:focus {
+    outline: none;
+    border: 2px solid #252B42;
+}
+
 @media screen and (max-width: 500px) {
     .subscription__form-input {
         width: 82%;
